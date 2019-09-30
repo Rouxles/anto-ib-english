@@ -1,12 +1,13 @@
 baseURL = "https://rouxles.github.io/anto-ib-english"
 languageCode = "en-us"
-title = "IB English Language and Literature"
+title = "Antonio Kam"
 publishDir = "docs"
 themesDir = "themes"
 theme = "minimal-bootstrap"
 
 [taxonomies]
   tag = "tags"
+  category = "categories"
 
 [permalinks]
   post = "/:filename/"
@@ -35,7 +36,7 @@ theme = "minimal-bootstrap"
 
 [menu]
   [[menu.nav]]
-  name = "Posts"
+  name = "Home"
   url = "/"
   weight = 1
   [[menu.nav]]
@@ -46,7 +47,3 @@ theme = "minimal-bootstrap"
   name = "About"
   url = "/about/"
   weight = 3
-  [[menu.nav]]
-  name = "RSS"
-  url = "/index.xml"
-  weight = 4
