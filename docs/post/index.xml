@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on IB English Language and Literature</title>
+    <link>https://rouxles.github.io/anto-ib-english/post/</link>
+    <description>Recent content in Posts on IB English Language and Literature</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Sep 2019 15:47:19 +0800</lastBuildDate>
+    
+	<atom:link href="https://rouxles.github.io/anto-ib-english/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Example Post</title>
+      <link>https://rouxles.github.io/anto-ib-english/example-post/</link>
+      <pubDate>Mon, 30 Sep 2019 15:47:19 +0800</pubDate>
+      
+      <guid>https://rouxles.github.io/anto-ib-english/example-post/</guid>
+      <description>Example Header Test Post.</description>
+    </item>
+    
+  </channel>
+</rss>
