@@ -1,6 +1,7 @@
-baseURL = "https://example.com"
+baseURL = "https://rouxles.github.io/anto-ib-english"
 languageCode = "en-us"
 title = "IB English Language and Literature"
+publishDir = "docs"
 themesDir = "themes"
 theme = "minimal-bootstrap"
 
