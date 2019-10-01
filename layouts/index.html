@@ -1,170 +1,51 @@
-<!doctype html>
+{{- define "main" -}}
 
-<html lang="en">
+{{ $homepage := "Home" }}
+{{ with .Site.Menus.nav }}
+  {{ range first 1 . }}
+    {{ $homepage = .Name }}
+  {{ end }}
+{{ end }}
+<h1>{{ $homepage }}</h1>
 
-<head>
-    <title>Antonio Kam</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<div style="height: 2px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 1em;
+margin-bottom: 1em;
+background-color: #aaa"></div>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<h3>Welcome to my IB English Language and Literature Learner Portfolio</h3>
+<ul>
+  <li><a href="categories/persepolis" style="text-decoration:none;">Persepolis</a></li>
+  <li><a href="categories/personal-work">Extra Work</a></li>
+</ul>
 
-    <!-- Default Stylesheet -->
-    <style>
-    @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono|Roboto+Slab&display=swap');
+<div style="height: 2px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 1em;
+margin-bottom: 1em;
+background-color: #aaa"></div>
 
-.title {
-    font-family: "Roboto Slab", serif;
-}
+<h2>Posts:</h2>
 
-.content {
-    font-family: "Open Sans", sans-serif;
-}
+{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{ range $pages.ByPublishDate.Reverse }}
+  <p>
+    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+    {{ $customDateFormat := "January 2, 2006" }}
+    {{ with .Site.Params.customDateFormat }}{{ $customDateFormat = . }}{{ end }}
+    <br>
+    <small class="text-secondary">{{ .PublishDate.Format $customDateFormat }}</small>
+    {{ partial "tags" . }}
+    {{ if eq .Site.Params.showPostSummary true }}
+    <br>
+    {{ .Summary }}
+    {{ end }}
+  </p>
+{{ end }}
 
-.monospace {
-    font-family: "Roboto Mono", monospace;
-}
-
-.nav-hover {
-    color: black;
-}
-
-.navbar-padding {
-    padding-bottom: 80px;
-}
-
-.bot-padding {
-    padding-bottom: 40px;
-}
-
-.margin-surround {
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
-.txt-center {
-    text-align: center;
-}
-
-.large-font {
-    font-size: 1.1em
-}
-
-#intro-box {
-    background-color: #CCFF00;
-    height: 300px;
-    width: 100%;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-}
-
-div#login-page-details {
-    border-radius: 3em;
-    background-color: #00000088;
-    width: 50%;
-    height: 40%;
-    position: absolute;
-    padding: 2em;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
-}
-
-#main-title {
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-
-#main-subtitle {
-    grid-column: 2/3;
-    grid-row: 3;
-}
-
-#large-title {
-    grid-column: 1/4;
-    grid-row: 2/3;
-}
-
-#large-subtitle {
-    grid-column: 1/4;
-    grid-row: 3;
-}
-
-.horizontal-line {
-    height: 2px;
-    width: 98%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4em;
-    margin-bottom: 4em;
-    background-color: #aaa
-}
-
-.block-image {
-    width: 80%;
-}
-
-.txt-bold {
-    font-weight: bold;
-}
-
-.radius-1 {
-    border-radius: 1em;
-}
-    </style>
-</head>
-
-<body>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-
-    <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
-        <div class="nav navbar-nav">
-            <a class="nav-item nav-link" href="#">Home</a>
-            <a class="nav-item nav-link" href="tags">Tags</a>
-            <a class="nav-item nav-link" href="about">About</a>
-        </div>
-    </nav>
-
-    <div class="wrapper bot-padding">
-        <div id="intro-box">
-            <h1 id="main-title" class="display-3 title">Antonio Kam</h1>
-            <h4 id="main-subtitle" class="content text-dark">IB English Language and Literature Learner Portfolio</h4>
-        </div>
-    </div>
-
-
-    <div class="container">
-        <div class="jumbotron">
-            <h2 class="title" style="text-align:center;">Welcome to my learner portfolio!</h2>
-            <p class="content large-font">In this website, you will find content for the IB English Language and Literature A Course at Standard Level</p>
-            <p class="content large-font">Click on the links in the navbar to access the main content, or use the buttons below.</p>
-        </div>
-    </div>
-
-    <div class="horizontal-line"></div>
-
-
-    
-</body>
-
-</html>
+{{- end -}}
