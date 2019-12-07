@@ -6,8 +6,8 @@ categories: ["Advertisements"]
 tags: ["Advertisements"]
 ---
 <div style="padding:30px;">
-  <object data="ad-info.pdf" type="application/pdf" width="300" height="200">
-    alt : <a href="data/test.pdf">test.pdf</a>
+  <object data="/ad-info.pdf" type="application/pdf" width="300" height="200">
+    alt : <a href="/ad-info.pdf">test.pdf</a>
   </object>
 </div>
 <!-- 
