@@ -5,10 +5,6 @@ draft: false
 categories: ["Advertisements"]
 tags: ["Advertisements"]
 ---
-<div style="padding:30px;">
-  <object data="/ad-info.pdf" type="application/pdf" width="300" height="200">
-    alt : <a href="/ad-info.pdf">test.pdf</a>
-  </object>
-</div>
-<!-- 
-![image](https://i.imgur.com/Yu7WU2F.png) -->
+
+
+![image](https://i.imgur.com/Yu7WU2F.png)
