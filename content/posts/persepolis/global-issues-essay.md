@@ -2,8 +2,7 @@
 title: "Global Issues Essay"
 date: 2019-10-03T12:27:48+08:00
 draft: false
-categories: ["Persepolis"]
-tags: ["Persepolis", "essay"]
+tags: ["Persepolis", "Essay"]
 ---
 
 The Passport (page 118)

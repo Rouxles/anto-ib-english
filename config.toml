@@ -1,6 +1,6 @@
 baseURL = "https://rouxles.github.io/anto-ib-english"
 languageCode = "en-us"
-title = "Antonio Kam"
+title = "IB English - Antonio Kam"
 theme = "beautifulhugo"
 publishDir = "docs"
 
