@@ -6,4 +6,4 @@ tags: ["Advertisements", "Notes"]
 ---
 
 
-{{<pdf-preview "https://drive.google.com/file/d/1yPBbMcG1benacVgKbWk7QaYW8IqgcWhK/view">}}
+{{<pdf-preview "https://drive.google.com/file/d/1yPBbMcG1benacVgKbWk7QaYW8IqgcWhK/preview">}}

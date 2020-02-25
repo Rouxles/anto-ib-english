@@ -5,4 +5,4 @@ draft: false
 tags: ["Frankenstein", "IO"]
 ---
 
-{{<pdf-preview "https://drive.google.com/file/d/1XLLdeWihZbYbvOferj2M-IQwjHOEiFHx/view">}}
+{{<pdf-preview "https://drive.google.com/file/d/1XLLdeWihZbYbvOferj2M-IQwjHOEiFHx/preview">}}
