@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on IB English - Antonio Kam</title>
+    <link>https://rouxles.github.io/anto-ib-english/tags/notes/</link>
+    <description>Recent content in Notes on IB English - Antonio Kam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Feb 2020 09:27:17 +0800</lastBuildDate>
+    
+	<atom:link href="https://rouxles.github.io/anto-ib-english/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Frankenstein Notes</title>
+      <link>https://rouxles.github.io/anto-ib-english/posts/frankenstein/notes/</link>
+      <pubDate>Tue, 25 Feb 2020 09:27:17 +0800</pubDate>
+      
+      <guid>https://rouxles.github.io/anto-ib-english/posts/frankenstein/notes/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Basic Notes - Advertising</title>
+      <link>https://rouxles.github.io/anto-ib-english/posts/advertisements/basic-notes/</link>
+      <pubDate>Mon, 28 Oct 2019 21:38:07 +0800</pubDate>
+      
+      <guid>https://rouxles.github.io/anto-ib-english/posts/advertisements/basic-notes/</guid>
+      <description> </description>
+    </item>
+    
+  </channel>
+</rss>
