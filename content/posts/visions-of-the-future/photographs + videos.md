@@ -24,7 +24,7 @@ Josh Haner's work primarily deals with nature. His work is more along the lines 
 [Link to video being referenced](https://www.youtube.com/watch?v=G4H1N_yXBiA)
 
 - The statistics can be believed because of these specific reasons:
-  - The video is from National Geographic (Logos - authority figure + have a track record of being trustworthy)
+  - The video is from National Geographic (Ethos - authority figure + have a track record of being trustworthy)
   - The videos kind of reflect what's going on in real life (pictures + videos show ice caps melting/national disasters etc)
 - The music used is chosen carefully to influence + amplify emotions produced
 
