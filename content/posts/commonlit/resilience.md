@@ -19,3 +19,5 @@ Here are a few notes that I have taken on the article:
 **Article:** How Resilience Works by *Diane Coutu (2002)*
 
 {{<pdf-preview "https://drive.google.com/file/d/1QqvKPgCO7mj_Em1JL8_oOsUHlIzQHaq_/preview">}}
+
+If there are any issues loading the document, please open this page in Google Chrome instead.
