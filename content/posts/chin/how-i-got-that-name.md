@@ -12,3 +12,5 @@ tags: ["Poem","Marilyn Chin","Analysis"]
 ## Summary
 
 *How I Got That Name* by Marilyn Chin is a poem where she explores the issue of her culture being part of both the east and the west. She explores the issue of her name - there is both an English component and a Chinese component. She explores how she believes that even if she tries to avoid her Chinese roots in the USA, it will only come back to her at an even stronger intensity. However, in a way, she does lose part of her Chinese culture by going to the USA. She says she dies a death, both physical in a way with her culture, but also a metaphorical one, and she then almost writes a eulogy to herself.
+
+Additionally, the title is worth noting. Usually, you would say 'How I got my name' instead of the title of the poem - this may show that she is not too fond of how her name came to be.
