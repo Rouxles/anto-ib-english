@@ -5,4 +5,7 @@ draft: false
 tags: ["Poem","Marilyn Chin","Analysis"]
 ---
 
-{{<pdf-preview "https://drive.google.com/file/d/1SlKTWej7d-iH5CaTClTIm9E9w5tv8A4v/preview">}}
+{{<pdf-preview "https://drive.google.com/file/d/1RwLpGw1MUDTgOw3XZDTTTDzEOC5JOoC8/preview">}}
+
+## Relationships to 'Gris'
+
