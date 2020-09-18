@@ -9,7 +9,7 @@ tags: ["Poem","Marilyn Chin","Analysis"]
 
 ## Relationships to 'Gris'
 
-[Link to video that explains what I'm talking about (in Gris) fairly well (https://www.youtube.com/watch?v=A-UD-aW2tpg)](https://www.youtube.com/watch?v=A-UD-aW2tpg) 
+[Link to video that explains what I'm talking about (in Gris) fairly well](https://www.youtube.com/watch?v=A-UD-aW2tpg) 
 
 The first thing that I thought of when reading "Take a Left at the Waters of Samsara" was about the five stages of grief, which instantly linked my thoughts on the poem to the videogame 'Gris'. 
 
