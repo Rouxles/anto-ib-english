@@ -16,3 +16,5 @@ tags: ["Paper 1","Analysis","Formative"]
 2. Make sure to mention more on PAF/COP/COR at the start of the text and be more explicit when pointing these things out
 3. Instead of going for something on a global scale when analysing, analyse how it affects the text instead.
 4. Make sure whenever you're making a point, there is ALWAYS analysis that goes with it.
+5. Definitely work more on Criterion A and B more so than C and D
+   1. Learn how to analyse images in essence.
