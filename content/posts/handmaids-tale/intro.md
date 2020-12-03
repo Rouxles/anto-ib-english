@@ -34,3 +34,5 @@ How are we given clues of this dystopian world in the first few pages? Comment o
 
 Ex: “Dances would have been held there, the music lingered, a palimpsest of unheard sound”-- “Palimpsest” means a piece of paper or a manuscript that has been erased and rewritten upon. This suggests that this world has completely changed, and history has been “erased”. What was once a high school is now a “re-education center”.
 
+---
+
