@@ -5,8 +5,6 @@ draft: false
 tags: ["The Handmaid's Tale"]
 ---
 
-> This post is likely to contains spoilers for the book.
-
 The Handmaid's Tale by Margaret Atwood is set in the U.S. after a revolution. The values go from the current democratic ones to those of Christianity from the Old Testament (a lot of prejudice, especially towards women).
 
 This was written shortly after the elections of Ronald Reagan and Margaret Thatcher (both are conservative political figures), who were partially fuelled by the conservative revolution. These conservatives criticized the sexual revolution, so feminists were naturally afraid that their progress would be all for nothing. The Handmaid's Tale highlights those concerns in an extremely dystopian fashion.
